@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>MyHobby</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortvut icon" type="images/png" href="./images/flower.jpg.png" />
+    <link rel="stylesheet" type="text/css" href="CSS/style.css" />
+    <script src="https://use.fontawesome.com/767155eaee.js"></script>
+    <script src="../js/scripts.js"></script>
+</head>
+
+<body onload="getYear()">
+    <div class="header">
+        <div clas="logo">
+            <img src="./images/flower.jpg.png" alt="logo" />
+        </div>
+        <div class="nav" id="myNav">
+            <a href="#" onclick="hideMenu()">MyHobby</a>
+            <a href="#about" onclick="hideMenu()">Informacion</a>
+            <a href="#products" onclick="hideMenu()">Houseflowers</a>
+            <a href="#products" onclick="hideMenu()">Streetflowers</a>
+            <a href="#products" onclick="hideMenu()">Bouquets</a>
+            <a href="javascript:void(0);" class="icon" onclick="responsiveMenu()"><i class=""></i></a>
+        </div>
+    </div>
+    <!--slider-->
+    <div class="slideshow-container">
+        <div class="slide anim">
+            <div class="numbertext">1 / 3</div>
+            <img src="images/30.jpeg">
+            <div class="text">Street flowers </div>
+        </div>
+        <div class="slide anim">
+            <div class="numbertext">2 / 3</div>
+            <img src="images/3.jpg">
+            <div class="text">House flowers</div>
+        </div>
+        <div class="slide anim">
+            <div class="numbertext">3 / 3</div>
+            <img src="images/14.jpg">
+            <div class="text">Bouquets</div>
+        </div>
+    </div>
+    <main>
+        <!--Primer-->
+        <hr id="about" />
+        <br>
+        <div class="about">
+            <h1>MY HOBBY<br> Flowers-are live... </h1>
+            <i class="image icon margin-bottom-15"></i>
+            <div class="main-paragraph text-paragraph">
+                <p>The love of gardening is a seed that once sown never dies. - Gertrude Jekyll (1843-1932)English
+                    horticulturist and garden designer. A garden is a great teacher. It teaches you patience and
+                    care, it teaches you industry and saving in the economy, and above all, true confidence. </p>
+                <p> Любовь к садоводству — это семя, которое однажды посеяно, никогда не умирает. - Гертруда Джекилл
+                    (1843-1932) английский садовод и садовый дизайнер. Сад — отличный учитель. Она учит терпению и
+                    осторожности, учит
+                    трудолюбию и бережливости в хозяйстве, а главное, истинной уверенности. </p>
+                <p>There will always be flowers in the world for those who carry a garden in their soul, for those
+                    who have as many virtues as the colors flowers have, for those who reflect and provide peace of
+                    mind, for valuable beings who can always be counted on without expecting anything in return. They
+                    deserve
+                    all the joy that is hidden... </p>
+                <p> В мире всегда будут цветы для тех, кто носит в душе сад, для тех, у кого столько добродетелей,
+                    сколько красок у цветов, для тех, кто размышляет и обеспечивает душевное спокойствие, для ценных
+                    существ, на которых всегда можно положиться, не ожидая ничего взамен. Они заслуживают всей радости,
+                    которая
+                    скрыта.....
+                </p>
+            </div>
+        </div>
+        <!--товары-->
+        <hr id="products" />
+        <br>
+        <div class="products">
+            <div class="cards_prod">
+                <div class="card">
+                    <a href="pages/houseflowers.html">
+                        <img src="images/3.jpg" alt="houseflowers" class="photo_prod" />
+                        <h3>House flowers</h3>
+                        <p>Комнатные цветы</p>
+                    </a>
+                </div>
+                <div class="card">
+                    <a href="pages/streetflowers.html">
+                        <img src="images/30.jpeg" alt="streetflowers" class="photo_prod" />
+                        <h3>Street flowers</h3>
+                        <p>Уличные цветы</p>
+                    </a>
+                </div>
+                <div class="card">
+                    <a href="pages/bouquets.html">
+                        <img src="images/bouquets/1.jpg" alt="bouquets" class="photo_prod" />
+                        <h3>Bouquets</h3>
+                        <p>Букеты</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!--footer-->
+    <div class="footer">
+        <h3><span class="copy"></span> &copy; </span> &#127804; &#169; Flowers <span id="year"></span> </h3>
+        <p>violetta-boistean@hotmail.es, +34627709000</p>
+    </div>
+    <script src="js/script.slider.js"></script>
+</body>
+
+</html>
